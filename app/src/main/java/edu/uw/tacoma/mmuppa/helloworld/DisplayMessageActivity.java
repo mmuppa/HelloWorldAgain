@@ -29,4 +29,11 @@ public class DisplayMessageActivity extends AppCompatActivity {
 
         Log.v(TAG, "onDestroy");
     }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        Log.i(TAG, "onStart");
+    }
 }
